@@ -1,7 +1,10 @@
 "use client";
 
 
+import { BentoGrid } from "@/components/ui/bento-grid";
 import { motion } from "motion/react";
+import { BentoGridThirdDemo } from "./_component/BentoGrid";
+import { FollowingPointerDemo } from "./_component/Followpointer";
 
 export default function HeroSectionOne() {
   return (
@@ -95,6 +98,8 @@ export default function HeroSectionOne() {
             />
           </div>
         </motion.div>
+        <BentoGridThirdDemo />
+        <FollowingPointerDemo />
       </div>
     </div>
   );
